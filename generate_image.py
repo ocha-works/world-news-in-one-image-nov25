@@ -233,9 +233,8 @@ def art_ukraine(x, y, w, h):
 def art_gaza(x, y, w, h):
     by = y + h - 30
     d.rectangle([x + 2, by, x + w - 2, y + h - 2], fill=(232, 190, 150))
-    for bx, bh in [(x + 14, 16), (x + 40, 22), (x + 68, 13), (x + 200, 18)]:
+    for bx, bh in [(x + 14, 16), (x + 40, 22), (x + 68, 13), (x + 200, 18), (x + 232, 14)]:
         d.rectangle([bx, y + h - 2 - bh, bx + 20, y + h - 2], fill=(70, 60, 55))
-    d.ellipse([x + w - 60, by + 2, x + w - 40, by + 22], fill=(150, 150, 148))
 
 
 def art_merz(x, y, w, h):
